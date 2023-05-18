@@ -7,7 +7,6 @@
     <list default="true" id="fd9aa20c-9f7d-4f99-a19d-7a478793c50c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Option.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +37,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -75,11 +73,19 @@
       <option name="project" value="LOCAL" />
       <updated>1684260869038</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="I'm still in the beginning pages of my project. I am trying to reason out the logic for my game. I was able to print something on the screen and get the display function to work properly. I also generated some new questions for the Guess the season quiz and continued to update my final project plan.">
+      <created>1684393698326</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684393698326</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I created a Question class to store 4 Option objects and a String that holds the question. Each option has a season attributed to it. For example, a favorite sport of skiing relates to the season Winter. I'm still deciding where I'm going to store the Question objects and how to display them." />
-    <option name="LAST_COMMIT_MESSAGE" value="I created a Question class to store 4 Option objects and a String that holds the question. Each option has a season attributed to it. For example, a favorite sport of skiing relates to the season Winter. I'm still deciding where I'm going to store the Question objects and how to display them." />
+    <MESSAGE value="I'm still in the beginning pages of my project. I am trying to reason out the logic for my game. I was able to print something on the screen and get the display function to work properly. I also generated some new questions for the Guess the season quiz and continued to update my final project plan." />
+    <option name="LAST_COMMIT_MESSAGE" value="I'm still in the beginning pages of my project. I am trying to reason out the logic for my game. I was able to print something on the screen and get the display function to work properly. I also generated some new questions for the Guess the season quiz and continued to update my final project plan." />
   </component>
 </project>
