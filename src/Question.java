@@ -1,13 +1,13 @@
+import java.util.ArrayList;
 public class Question {
     private String questions;
-    private Option a;
-    private Option b;
-    private Option c;
-    private Option d;
+    private ArrayList <Option> options;
     public Question(){
 
     }
-    public Question (int optionA, int optionB  ){
+    public Question (String questions, ArrayList <Option> options){
+        this.questions = questions;
+        this.options= options;
 
     }
 }
