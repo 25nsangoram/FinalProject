@@ -39,7 +39,7 @@ public class Main extends PApplet {
             }
         }
     public void draw() {
-        background(1,1,1);
+        background(0,0,0);
         text("Let me guess your favorite season!", width/2,height/2);
         //have a background call to erase
 

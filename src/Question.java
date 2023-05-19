@@ -12,12 +12,12 @@ public class Question {
 
     }
     public void display(){
-        Main.app.fill(23,23,23);
-        Main.app.ellipse(600/4,600/4,50,50);
+        //Main.app.fill(23,23,23);
+        //Main.app.ellipse(600/4,600/4,50,50);
 
-        Main.app.ellipse(2*(600/4),2*(600/4),50,50);
-        Main.app.ellipse(3*(600/4),3*(600/4),50,50);
-        Main.app.ellipse(600/4,600/4,50,50);
+        //Main.app.ellipse(2*(600/4),2*(600/4),50,50);
+        //Main.app.ellipse(3*(600/4),3*(600/4),50,50);
+       // Main.app.ellipse(600/4,600/4,50,50);
 
     }
     public Option getA(){
