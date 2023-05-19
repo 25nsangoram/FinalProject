@@ -11,6 +11,9 @@ public class Option {
     public void newOption(){
 
     }
+    public String getOptionName(){
+        return name;
+    }
     public int getSeason(){
         return season;
     }

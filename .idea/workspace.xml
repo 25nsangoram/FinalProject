@@ -7,6 +7,7 @@
     <list default="true" id="fd9aa20c-9f7d-4f99-a19d-7a478793c50c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Option.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +43,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="FinalProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684484921584</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="I didn't have much time to work on the project for homework last night, but will put in more work over the weekend. I started working on the visual ellipses for my Question class.">
+      <created>1684531027754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684531027754</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -87,6 +109,10 @@
     <MESSAGE value="I'm still in the beginning pages of my project. I am trying to reason out the logic for my game. I was able to print something on the screen and get the display function to work properly. I also generated some new questions for the Guess the season quiz and continued to update my final project plan." />
     <MESSAGE value="Today in class, I worked in Main and more specifically in setup() (lines 24-37). Using Ms. Greyson's advice, I created a 2D array of Strings. Each row contains String information that will correspond to a specific question. The first column of each row contains the question name in the form of a String." />
     <MESSAGE value="Today in class, I worked in Main and more specifically in setup() (lines 24-37). Using Ms. Greyson's advice, I created a 2D array of Strings. Each row contains String information that will correspond to a specific question. The first column of each row contains the question name in the form of a String, the second column contains option A, the third column contains option B, the fourth column contains option c, and the fifth column contains option d. Right now each option will have a certain season corresponding to it." />
-    <option name="LAST_COMMIT_MESSAGE" value="Today in class, I worked in Main and more specifically in setup() (lines 24-37). Using Ms. Greyson's advice, I created a 2D array of Strings. Each row contains String information that will correspond to a specific question. The first column of each row contains the question name in the form of a String, the second column contains option A, the third column contains option B, the fourth column contains option c, and the fifth column contains option d. Right now each option will have a certain season corresponding to it." />
+    <MESSAGE value="I didn't have much time to work on the project for homework last night, but will put in more work over the weekend. I started working on the visual ellipses for my Question class." />
+    <option name="LAST_COMMIT_MESSAGE" value="I didn't have much time to work on the project for homework last night, but will put in more work over the weekend. I started working on the visual ellipses for my Question class." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FinalProject$Main.ic" NAME="Main Coverage Results" MODIFIED="1684532311517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

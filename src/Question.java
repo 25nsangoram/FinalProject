@@ -4,7 +4,6 @@ public class Question {
     private ArrayList <Option> options;
 
     public Question(){
-
     }
     public Question (String questions, ArrayList <Option> options){
         this.questions = questions;
@@ -12,12 +11,17 @@ public class Question {
 
     }
     public void display(){
-        //Main.app.fill(23,23,23);
-        //Main.app.ellipse(600/4,600/4,50,50);
-
-        //Main.app.ellipse(2*(600/4),2*(600/4),50,50);
-        //Main.app.ellipse(3*(600/4),3*(600/4),50,50);
-       // Main.app.ellipse(600/4,600/4,50,50);
+        Main.app.fill(255,255,255);
+        Main.app.ellipse((600/4) + 100,600/4,50,50);
+        Main.app.fill(0,0,0);
+        Main.app.text("A", (600/4) + 100,600/4);
+        Main.app.ellipse((600/4)+ 100,2*(600/4),50,50);
+        Main.app.ellipse((600/4) + 100,3*(600/4),50,50);
+        Main.app.ellipse((600/4) + 100,7*(600/8),50,50);
+        Main.app.text(options.get(0).getOptionName(), 600/4, (600/4));
+        Main.app.text(options.get(1).getOptionName(), 600/4, 2*(600/4));
+        Main.app.text(options.get(2).getOptionName(), 600/4, 3*(600/4));
+        Main.app.text(options.get(3).getOptionName(), 600/4, 7*(600/8));
 
     }
     public Option getA(){
