@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fd9aa20c-9f7d-4f99-a19d-7a478793c50c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,30 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="FinalProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="FinalProject" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,12 +63,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684393698326</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Today in class, I worked in Main and more specifically in setup() (lines 24-37). Using Ms. Greyson's advice, I created a 2D array of Strings. Each row contains String information that will correspond to a specific question. The first column of each row contains the question name in the form of a String.">
+      <created>1684434362202</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684434362202</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="I created a Question class to store 4 Option objects and a String that holds the question. Each option has a season attributed to it. For example, a favorite sport of skiing relates to the season Winter. I'm still deciding where I'm going to store the Question objects and how to display them." />
     <MESSAGE value="I'm still in the beginning pages of my project. I am trying to reason out the logic for my game. I was able to print something on the screen and get the display function to work properly. I also generated some new questions for the Guess the season quiz and continued to update my final project plan." />
-    <option name="LAST_COMMIT_MESSAGE" value="I'm still in the beginning pages of my project. I am trying to reason out the logic for my game. I was able to print something on the screen and get the display function to work properly. I also generated some new questions for the Guess the season quiz and continued to update my final project plan." />
+    <MESSAGE value="Today in class, I worked in Main and more specifically in setup() (lines 24-37). Using Ms. Greyson's advice, I created a 2D array of Strings. Each row contains String information that will correspond to a specific question. The first column of each row contains the question name in the form of a String." />
+    <option name="LAST_COMMIT_MESSAGE" value="Today in class, I worked in Main and more specifically in setup() (lines 24-37). Using Ms. Greyson's advice, I created a 2D array of Strings. Each row contains String information that will correspond to a specific question. The first column of each row contains the question name in the form of a String." />
   </component>
 </project>
