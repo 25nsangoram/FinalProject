@@ -7,7 +7,6 @@
     <list default="true" id="fd9aa20c-9f7d-4f99-a19d-7a478793c50c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Option.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684531027754</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="In class today, I worked on the display features of the question class, and created a Question instance variable that would be reset after each question was displayed. The display of each question consists of 4 ellipses with A, B, C, and D at the center of each. My goal is to display each option to the right of it's corresponding option letter.">
+      <created>1684538944283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684538944283</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -110,7 +116,8 @@
     <MESSAGE value="Today in class, I worked in Main and more specifically in setup() (lines 24-37). Using Ms. Greyson's advice, I created a 2D array of Strings. Each row contains String information that will correspond to a specific question. The first column of each row contains the question name in the form of a String." />
     <MESSAGE value="Today in class, I worked in Main and more specifically in setup() (lines 24-37). Using Ms. Greyson's advice, I created a 2D array of Strings. Each row contains String information that will correspond to a specific question. The first column of each row contains the question name in the form of a String, the second column contains option A, the third column contains option B, the fourth column contains option c, and the fifth column contains option d. Right now each option will have a certain season corresponding to it." />
     <MESSAGE value="I didn't have much time to work on the project for homework last night, but will put in more work over the weekend. I started working on the visual ellipses for my Question class." />
-    <option name="LAST_COMMIT_MESSAGE" value="I didn't have much time to work on the project for homework last night, but will put in more work over the weekend. I started working on the visual ellipses for my Question class." />
+    <MESSAGE value="In class today, I worked on the display features of the question class, and created a Question instance variable that would be reset after each question was displayed. The display of each question consists of 4 ellipses with A, B, C, and D at the center of each. My goal is to display each option to the right of it's corresponding option letter." />
+    <option name="LAST_COMMIT_MESSAGE" value="In class today, I worked on the display features of the question class, and created a Question instance variable that would be reset after each question was displayed. The display of each question consists of 4 ellipses with A, B, C, and D at the center of each. My goal is to display each option to the right of it's corresponding option letter." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinalProject$Main.ic" NAME="Main Coverage Results" MODIFIED="1684532311517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -26,7 +26,7 @@ public class Main extends PApplet {
         }
     public void draw() {
         background(0,0,0);
-        text("Let me guess your favorite season!", width/2,height/2);
+        //text("Let me guess your favorite season!", width/2,height/2);
         thisQuestion.display();
         //have a background call to erase
 
