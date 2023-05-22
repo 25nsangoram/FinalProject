@@ -18,7 +18,7 @@ public class Main extends PApplet {
 
     }
     public void setup(){
-        dataSet = new String [][] {{"Question1", "answer1", "answer2", "answer3", "answer4"}, {"Question2", "answer1", "answer2", "answer3", "answer4"}};
+        dataSet = new String [][] {{"Favorite Holiday?", "Christmas", "Easter", "4th of July", "Halloween"}, {"Question2", "answer1", "answer2", "answer3", "answer4"}};
         index = 0;
         textSize(36);
         textAlign(CENTER,CENTER);
@@ -33,6 +33,7 @@ public class Main extends PApplet {
 
     }
     public void mouseClicked(){
+        //
     }
     public void resetQuestion(){
         Option a = new Option (1, dataSet[index][1]);
