@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684546826928</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="For homework, I worked on the formatting of the question on the screen and changing the color of the option bubbles. I am planning on working on the mouseClicked method more for homework. The goal is to detect which bubble is pressed and to subsequently increment ints summer, fall, winter, or spring based on which season the selection option corresponds to. The program will visually portray a clicked bubble by changing the color to a darker color upon the click.">
+      <created>1684732987269</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684732987270</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,7 +132,8 @@
     <MESSAGE value="I didn't have much time to work on the project for homework last night, but will put in more work over the weekend. I started working on the visual ellipses for my Question class." />
     <MESSAGE value="In class today, I worked on the display features of the question class, and created a Question instance variable that would be reset after each question was displayed. The display of each question consists of 4 ellipses with A, B, C, and D at the center of each. My goal is to display each option to the right of it's corresponding option letter." />
     <MESSAGE value="I continued working on display. Now the options, questions, and letter bubbles show up :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="I continued working on display. Now the options, questions, and letter bubbles show up :)" />
+    <MESSAGE value="For homework, I worked on the formatting of the question on the screen and changing the color of the option bubbles. I am planning on working on the mouseClicked method more for homework. The goal is to detect which bubble is pressed and to subsequently increment ints summer, fall, winter, or spring based on which season the selection option corresponds to. The program will visually portray a clicked bubble by changing the color to a darker color upon the click." />
+    <option name="LAST_COMMIT_MESSAGE" value="For homework, I worked on the formatting of the question on the screen and changing the color of the option bubbles. I am planning on working on the mouseClicked method more for homework. The goal is to detect which bubble is pressed and to subsequently increment ints summer, fall, winter, or spring based on which season the selection option corresponds to. The program will visually portray a clicked bubble by changing the color to a darker color upon the click." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinalProject$Main.ic" NAME="Main Coverage Results" MODIFIED="1684532311517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -5,6 +5,10 @@ public class Main extends PApplet {
     private String [][] dataSet;
     private Question thisQuestion;
     private int index;
+    private int winter;
+    private int spring;
+    private int summer;
+    private int fall;
     public static Main app;
     public static void main(String[] args) {
         PApplet.main("Main");
@@ -18,7 +22,7 @@ public class Main extends PApplet {
 
     }
     public void setup(){
-        dataSet = new String [][] {{"Favorite Holiday?", "Christmas", "Easter", "4th of July", "Halloween"}, {"Question2", "answer1", "answer2", "answer3", "answer4"}};
+        dataSet = new String [][] {{"Favorite Holiday?", "Christmas", "Easter", "4th of July", "Halloween"}, {"On a boring day, I choose to", "Ski", "Walk my dog", "Barbeque", "Read a book"}};
         index = 0;
         textSize(36);
         textAlign(CENTER,CENTER);
@@ -32,7 +36,28 @@ public class Main extends PApplet {
 
 
     }
-    public void mouseClicked(){
+    public void keyPressed(){
+        if (key == 'a'){
+            thisQuestion.hasBeenClicked(0);
+
+
+        }
+        if (key == 'b'){
+            thisQuestion.hasBeenClicked(1);
+
+
+        }
+        if (key == 'c'){
+            thisQuestion.hasBeenClicked(2);
+
+
+        }
+        if (key == 'd'){
+            thisQuestion.hasBeenClicked(3);
+        }
+        if(key == '\n'){
+            resetQuestion(); // How to reset question and increment?
+        }
         //
     }
     public void resetQuestion(){
