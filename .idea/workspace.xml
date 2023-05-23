@@ -7,7 +7,6 @@
     <list default="true" id="fd9aa20c-9f7d-4f99-a19d-7a478793c50c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684732987270</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="For additional homework, I worked on the visuals for clicking each button. Now when a letter is pressed (a, b, c, or d) the corresponding bubble will turn red which indicates which option has been selected. I am still working on the resetQuestion() feature which will move to the next question as soon as the user decides which option they are satisfied with and press return.">
+      <created>1684821038674</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684821038674</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,7 +139,8 @@
     <MESSAGE value="In class today, I worked on the display features of the question class, and created a Question instance variable that would be reset after each question was displayed. The display of each question consists of 4 ellipses with A, B, C, and D at the center of each. My goal is to display each option to the right of it's corresponding option letter." />
     <MESSAGE value="I continued working on display. Now the options, questions, and letter bubbles show up :)" />
     <MESSAGE value="For homework, I worked on the formatting of the question on the screen and changing the color of the option bubbles. I am planning on working on the mouseClicked method more for homework. The goal is to detect which bubble is pressed and to subsequently increment ints summer, fall, winter, or spring based on which season the selection option corresponds to. The program will visually portray a clicked bubble by changing the color to a darker color upon the click." />
-    <option name="LAST_COMMIT_MESSAGE" value="For homework, I worked on the formatting of the question on the screen and changing the color of the option bubbles. I am planning on working on the mouseClicked method more for homework. The goal is to detect which bubble is pressed and to subsequently increment ints summer, fall, winter, or spring based on which season the selection option corresponds to. The program will visually portray a clicked bubble by changing the color to a darker color upon the click." />
+    <MESSAGE value="For additional homework, I worked on the visuals for clicking each button. Now when a letter is pressed (a, b, c, or d) the corresponding bubble will turn red which indicates which option has been selected. I am still working on the resetQuestion() feature which will move to the next question as soon as the user decides which option they are satisfied with and press return." />
+    <option name="LAST_COMMIT_MESSAGE" value="For additional homework, I worked on the visuals for clicking each button. Now when a letter is pressed (a, b, c, or d) the corresponding bubble will turn red which indicates which option has been selected. I am still working on the resetQuestion() feature which will move to the next question as soon as the user decides which option they are satisfied with and press return." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinalProject$Main.ic" NAME="Main Coverage Results" MODIFIED="1684532311517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

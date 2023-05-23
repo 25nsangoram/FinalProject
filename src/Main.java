@@ -9,6 +9,8 @@ public class Main extends PApplet {
     private int spring;
     private int summer;
     private int fall;
+    private int choiceIndex;
+    private int [] choices;
     public static Main app;
     public static void main(String[] args) {
         PApplet.main("Main");
@@ -22,8 +24,9 @@ public class Main extends PApplet {
 
     }
     public void setup(){
-        dataSet = new String [][] {{"Favorite Holiday?", "Christmas", "Easter", "4th of July", "Halloween"}, {"On a boring day, I choose to", "Ski", "Walk my dog", "Barbeque", "Read a book"}};
+        dataSet = new String [][] {{"Favorite Holiday?", "Christmas", "Easter", "4th of July", "Halloween"}, {"On a boring day, I choose to...", "Ski", "Walk my dog", "Barbeque", "Read a book"}, {}};
         index = 0;
+        choices = new int[4];
         textSize(36);
         textAlign(CENTER,CENTER);
         resetQuestion();
@@ -39,23 +42,27 @@ public class Main extends PApplet {
     public void keyPressed(){
         if (key == 'a'){
             thisQuestion.hasBeenClicked(0);
+            choiceIndex = 0;
 
 
         }
         if (key == 'b'){
             thisQuestion.hasBeenClicked(1);
-
+            choiceIndex = 1;
 
         }
         if (key == 'c'){
             thisQuestion.hasBeenClicked(2);
-
+            choiceIndex = 2;
 
         }
         if (key == 'd'){
             thisQuestion.hasBeenClicked(3);
+            choiceIndex = 3;
         }
         if(key == '\n'){
+            index++;
+            choices[choiceIndex] = choices[choiceIndex]++;
             resetQuestion(); // How to reset question and increment?
         }
         //
