@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684875775782</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Almost finished quiz">
+      <created>1684971490945</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684971490945</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,7 +155,8 @@
     <MESSAGE value="For homework, I worked on the formatting of the question on the screen and changing the color of the option bubbles. I am planning on working on the mouseClicked method more for homework. The goal is to detect which bubble is pressed and to subsequently increment ints summer, fall, winter, or spring based on which season the selection option corresponds to. The program will visually portray a clicked bubble by changing the color to a darker color upon the click." />
     <MESSAGE value="For additional homework, I worked on the visuals for clicking each button. Now when a letter is pressed (a, b, c, or d) the corresponding bubble will turn red which indicates which option has been selected. I am still working on the resetQuestion() feature which will move to the next question as soon as the user decides which option they are satisfied with and press return." />
     <MESSAGE value="I completed the class work session on 5/23. My questions now reset when the user presses return! Additionally, I created an answers array that has a length of 4. Each index corresponds to an option (a,b,c, or d), and the selected option when the user presses enter will be used to increment the corresponding spot in the answers array. This records which season the user is picking. I am going to work on generating my questions randomly next, and returning a guess of the user's favorite season based on their choices." />
-    <option name="LAST_COMMIT_MESSAGE" value="I completed the class work session on 5/23. My questions now reset when the user presses return! Additionally, I created an answers array that has a length of 4. Each index corresponds to an option (a,b,c, or d), and the selected option when the user presses enter will be used to increment the corresponding spot in the answers array. This records which season the user is picking. I am going to work on generating my questions randomly next, and returning a guess of the user's favorite season based on their choices." />
+    <MESSAGE value="Almost finished quiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost finished quiz" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinalProject$Main.ic" NAME="Main Coverage Results" MODIFIED="1684532311517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

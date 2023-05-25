@@ -31,8 +31,8 @@ public class Main extends PApplet {
                 {"On a boring day, I choose to...", "Make tea", "Walk my dog", "Barbeque", "Read a book"},
                 {"Dream Vacation?", "Ski resort", "Tokyo, Japan \n to see the Cherry Blossoms.", "                    Aulani Disney Resort", "     National Park"},
                 {"Preferred meal?", "Classic Turkey Chili", "Pasta Primavera", "Potato Salad", "Butternut Squash Soup"},
-                {"Preferal?", "ClassiChili", "Pastamavera", "Potato Salad", "Butternush Soup"},
-                {" meal?", "Classic i", "Pasta Prera", "Potato Salad", "Butternut Squash Soup"}};
+                {"Taylor Swift Album?", "Evermore", "Fearless", "1989", "Red"},
+                {"Ideal weather?", "Blizzard", "Rain", "Warm and Sunny", "Don't care"}};
         index = 0;
         choices = new int[4];
         textSize(36);
@@ -60,24 +60,27 @@ public class Main extends PApplet {
     }
     public void keyPressed(){
         if (key == 'a'){
-            thisQuestion.hasBeenClicked(0);
             choiceIndex = 0;
+            thisQuestion.hasBeenClicked(0);
 
 
         }
         if (key == 'b'){
-            thisQuestion.hasBeenClicked(1);
             choiceIndex = 1;
+            thisQuestion.hasBeenClicked(1);
+
 
         }
         if (key == 'c'){
-            thisQuestion.hasBeenClicked(2);
             choiceIndex = 2;
+            thisQuestion.hasBeenClicked(2);
+
 
         }
         if (key == 'd'){
-            thisQuestion.hasBeenClicked(3);
             choiceIndex = 3;
+            thisQuestion.hasBeenClicked(3);
+
         }
 
         if(key == '\n'){
