@@ -12,7 +12,7 @@ public class Main extends PApplet {
     private int choiceIndex;
     private int [] choices;
     private int questionCount;
-    private final String [] SEASONS = {"Winter", "Spring", "Summer","Fall"};
+    private final String [] SEASONS = {"Winter️️", "Spring", "Summer","Fall"};
     public static Main app;
     public static void main(String[] args) {
         PApplet.main("Main");
@@ -31,10 +31,12 @@ public class Main extends PApplet {
                 {"On a boring day, I choose to...", "Make tea", "Walk my dog", "Barbeque", "Read a book"},
                 {"Dream Vacation?", "Ski resort", "Tokyo, Japan \n to see the Cherry Blossoms.", "                    Aulani Disney Resort", "     National Park"},
                 {"Preferred meal?", "Classic Turkey Chili", "Pasta Primavera", "Potato Salad", "Butternut Squash Soup"},
-                {"Taylor Swift Album?", "Evermore", "Fearless", "1989", "Red"},
-                {"Ideal weather?", "Blizzard", "Rain", "Warm and Sunny", "Don't care"}};
-        index = 0;
+                {"Taylor Swift Album?", "Midnights", "Lover", "1989", "Folklore"},
+                {"Ideal weather?", "Blizzard", "Rain", "Warm and Sunny", "Don't care"},
+                {" The best place for a nap is...", "Near a heater", "Hammock", "Lounging on the beach", "Inside on a giant bean bag"}}; // make into arraylist?
+        index = (int)(Math.random()*dataSet.length);
         choices = new int[4];
+        choiceIndex =-1;
         textSize(36);
         textAlign(CENTER,CENTER);
         resetQuestion();
@@ -43,14 +45,19 @@ public class Main extends PApplet {
         //text("Let me guess your favorite season!", width/2,height/2);
         if(questionCount == 5){
             background(235, 64, 52);
-            Main.app.fill(66, 135, 245);
-            int indexMax = 0;
-            for(int i = 1; i < choices.length; i++){
-                if(choices[i] > choices[indexMax]){
-                    indexMax = i;
-                }
+            Main.app.fill(0,0,0);
+            if(choiceIndex == -1){
+                Main.app.text("I think your favorite season is: " + "\n"+ "Uh oh, I need more info", width/2, height/2);
             }
-            Main.app.text("I think your favorite season is: " + SEASONS[indexMax], width/2, height/2);
+            else {
+                int indexMax = 0;
+                for (int i = 1; i < choices.length; i++) {
+                    if (choices[i] > choices[indexMax]) {
+                        indexMax = i;
+                    }
+                }
+                Main.app.text("I think your favorite season is: " + "\n" + SEASONS[indexMax], width / 2, height / 2);
+            }
         }
         else{
             background(0,0,0);
@@ -84,8 +91,14 @@ public class Main extends PApplet {
         }
 
         if(key == '\n'){
-            index++;
-            choices[choiceIndex] = choices[choiceIndex]++;
+            int temp = (int)(Math.random()*dataSet.length);
+            while (dataSet[temp] == null) {
+                temp = (int) (Math.random() * dataSet.length);
+            }
+            index = temp;
+            if(choiceIndex != -1){
+                choices[choiceIndex]++;
+            }
             if(questionCount < 5){
                 questionCount++;
                 resetQuestion(); // How to reset question and increment?
@@ -104,6 +117,6 @@ public class Main extends PApplet {
         optionSet.add(c);
         optionSet.add(d);
         thisQuestion = new Question(dataSet[index][0],optionSet);
-
+        dataSet[index] = null;
         }
     }

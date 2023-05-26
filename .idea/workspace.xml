@@ -141,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684971490945</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adding on: almost finished quiz. I met with Ms. Greyson and worked on the part of the program that ends the quiz for the user after 6 questions.">
+      <created>1685032875769</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685032875769</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,7 +163,19 @@
     <MESSAGE value="For additional homework, I worked on the visuals for clicking each button. Now when a letter is pressed (a, b, c, or d) the corresponding bubble will turn red which indicates which option has been selected. I am still working on the resetQuestion() feature which will move to the next question as soon as the user decides which option they are satisfied with and press return." />
     <MESSAGE value="I completed the class work session on 5/23. My questions now reset when the user presses return! Additionally, I created an answers array that has a length of 4. Each index corresponds to an option (a,b,c, or d), and the selected option when the user presses enter will be used to increment the corresponding spot in the answers array. This records which season the user is picking. I am going to work on generating my questions randomly next, and returning a guess of the user's favorite season based on their choices." />
     <MESSAGE value="Almost finished quiz" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost finished quiz" />
+    <MESSAGE value="Adding on: almost finished quiz. I met with Ms. Greyson and worked on the part of the program that ends the quiz for the user after 6 questions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding on: almost finished quiz. I met with Ms. Greyson and worked on the part of the program that ends the quiz for the user after 6 questions." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FinalProject$Main.ic" NAME="Main Coverage Results" MODIFIED="1684532311517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
