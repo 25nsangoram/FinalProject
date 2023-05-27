@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fd9aa20c-9f7d-4f99-a19d-7a478793c50c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685127654667</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="I'm all done! The only thing I changed during class was the position of the a, b, c, and d bubbles, so they didn't overlap with the options.">
+      <created>1685144937915</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685144937915</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,7 +179,8 @@
     <MESSAGE value="Almost finished quiz" />
     <MESSAGE value="Adding on: almost finished quiz. I met with Ms. Greyson and worked on the part of the program that ends the quiz for the user after 6 questions." />
     <MESSAGE value="I think I'm pretty much done! For homework, I added a part to my code that makes sure the same questions don't repeat, even though they are selected randomly. I also added a component that returned &quot;Uh oh, I need more info&quot; if the user didn't input any values, and just pressed enter. I might update this function to happen if the user clicks enter before selecting an option. I might also work on other backgrounds." />
-    <option name="LAST_COMMIT_MESSAGE" value="I think I'm pretty much done! For homework, I added a part to my code that makes sure the same questions don't repeat, even though they are selected randomly. I also added a component that returned &quot;Uh oh, I need more info&quot; if the user didn't input any values, and just pressed enter. I might update this function to happen if the user clicks enter before selecting an option. I might also work on other backgrounds." />
+    <MESSAGE value="I'm all done! The only thing I changed during class was the position of the a, b, c, and d bubbles, so they didn't overlap with the options." />
+    <option name="LAST_COMMIT_MESSAGE" value="I'm all done! The only thing I changed during class was the position of the a, b, c, and d bubbles, so they didn't overlap with the options." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

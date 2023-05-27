@@ -47,7 +47,7 @@ public class Main extends PApplet {
             background(235, 64, 52);
             Main.app.fill(0,0,0);
             if(choiceIndex == -1){
-                Main.app.text("I think your favorite season is: " + "\n"+ "Uh oh, I need more info", width/2, height/2);
+                Main.app.text("I think your favorite season is: " + "\n"+ "Uh oh, I need more info" + "\n" + "Click 'r' to reset!" , width/2, height/2);
             }
             else {
                 int indexMax = 0;
@@ -56,7 +56,7 @@ public class Main extends PApplet {
                         indexMax = i;
                     }
                 }
-                Main.app.text("I think your favorite season is: " + "\n" + SEASONS[indexMax], width / 2, height / 2);
+                Main.app.text("I think your favorite season is: " + "\n" + SEASONS[indexMax] + "\n" + "Click 'r' to reset!", width / 2, height / 2);
             }
         }
         else{
@@ -89,6 +89,9 @@ public class Main extends PApplet {
             thisQuestion.hasBeenClicked(3);
 
         }
+        if(key == 'r'){
+            reset();
+        }
 
         if(key == '\n'){
             int temp = (int)(Math.random()*dataSet.length);
@@ -105,6 +108,10 @@ public class Main extends PApplet {
             }
         }
         //
+    }
+    public void reset(){
+        questionCount=0;
+        setup();
     }
     public void resetQuestion(){
         Option a = new Option (1, dataSet[index][1]);
